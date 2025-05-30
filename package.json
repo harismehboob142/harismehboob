@@ -1,12 +1,12 @@
 {
   "name": "Haris-portfolio-website",
   "author": {
-    "name": "Haris Mehboobbilyunazra",
-    "email": "Haris.Mehboob04@gmail.com",
-    "url": "https://Haris.my.id"
+    "name": "Haris Mehboob",
+    "email": "harismmehboob2019@gmail.com",
+    "url": "https://harismehboob.vercel.app"
   },
   "license": "GPL-3.0",
-  "copyright": "Copyright (C) 2025 Haris Mehboobbilyunazra",
+  "copyright": "Copyright (C) 2025 Haris Mehboob",
   "version": "1.0.0",
   "private": true,
   "scripts": {

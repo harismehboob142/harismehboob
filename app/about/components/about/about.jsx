@@ -112,28 +112,20 @@ export default function About() {
           }}
         >
           <h2 className="text-2xl font-bold tracking-wider mb-3">
-            Haris Mehboobbilyunazra
+            Haris Mehboob
           </h2>
           <p className="text-gray-600 text-justify title text-lg">
-            Hey there, I&rsquo;m Haris Mehboobbilyunazra, a
+            Hey there, I&rsquo;m Haris Mehboob, a
             <span className="text-black font-medium"> tech enthusiast</span> and
             <span className="text-black font-medium">
               {" "}
               aspiring Web Developer.
             </span>{" "}
-            Originating from Pasuruan, East Java, Indonesia, I&rsquo;m currently
-            embarking on a fascinating journey at{" "}
-            <span className="text-black font-medium">
-              Universitas Negeri Malang,
-            </span>{" "}
-            where I&rsquo;m pursuing my degree in{" "}
-            <span className="text-black font-medium">
-              Informatics Engineering.
-            </span>{" "}
-            My passion for technology and coding knows no bounds. Beyond the
-            world of coding, I find myself deeply immersed in the realms of
-            design, Game Development, and the fascinating universe of AI. I
-            believe that in today&rsquo;s fast-paced digital landscape, being a
+            Originating from Islamabad, Pakistan, My passion for technology and
+            coding knows no bounds. Beyond the world of coding, I find myself
+            deeply immersed in the realms of design, Technology, and the
+            fascinating universe of AI. I believe that in today&rsquo;s
+            fast-paced digital landscape, being a
             <span className="text-black font-medium"> lifelong learner</span> is
             not just a choice, but a necessity. Let&rsquo;s connect and explore
             this ever-evolving world of tech together!
