@@ -41,6 +41,8 @@ export default function Page() {
               <Image
                 src={Hero}
                 alt="Haris Mehboob"
+                height={"20px"}
+                width={"20px"}
                 layout="fill"
                 objectFit="cover"
                 placeholder="blur"
