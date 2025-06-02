@@ -2,87 +2,112 @@
   "Projects": [
     {
       "show": true,
-      "title": "Client Personal Protfolio Website",
+      "title": "SVCC",
       "desc": [
-        "A personal portfolio website that I created for a client. The website is built using two main tech, native (HTML, CSSS, JS) and react based (ReactJs, TailwindCSS, Typescript). The website also created based on the client design, and improved and sliced by me. The website has a few features such as a about page, a project page, resume page, and a contact page.",
-        "The website is created using a modern design and a clean interface that appeals to a wide audience. The website also has a responsive design that makes it easy to use on any device. The website also has a few animations that make the website more interactive and engaging."
+        "The Sauk Valley Community College (SVCC) website (svcc.edu) serves as the central online hub for the institution, catering to prospective and current students, faculty, staff, alumni, and the wider community. Its primary purpose is to provide comprehensive information about the college's offerings and resources, including detailed sections on Admissions, Academics, Student Resources, and Athletics, alongside functions for requesting information, applying online, and accessing user portals. In contributing to the development of this platform, I focused on key frontend and backend components. I utilized React and TypeScript to build interactive user interface elements and ensure a robust, type-safe frontend architecture. On the backend, I implemented features and managed data persistence through integration with Firebase services, facilitating dynamic content delivery and user interactions within specific sections of the site."
       ],
-      "year": "2025",
-      "preview": "",
+      "year": "2022",
+      "preview": "https://www.svcc.edu/index.html",
       "code": "",
-      "thumbnail": "/image/projects/web/apii-portfolio/porto-thumbnail.jpg",
+      "thumbnail": "/image/projects/web/svcc/svcc1.png",
+
       "images": [
-        "/image/projects/web/apii-portfolio/porto1.png",
-        "/image/projects/web/apii-portfolio/porto2.png",
-        "/image/projects/web/apii-portfolio/porto3.png"
+        "/image/projects/web/svcc/svcc1.png",
+        "/image/projects/web/svcc/svcc2.png",
+        "/image/projects/web/svcc/svcc3.png"
       ],
-      "tech": ["HTML", "CSS", "JS", "ReactJS", "TailwindCSS", "Typescript"],
-      "slug": "apii-porto",
+      "tech": ["HTML", "CSS", "ReactJS", "MUI", "Typescript", "Firebase"],
+      "slug": "svcc",
       "category": [1]
     },
     {
       "show": true,
-      "title": "Mind Mirror",
+      "title": "Treetalk Therapy",
       "desc": [
-        "LMS website that integrated Generative AI feauture to track studnet various keys like mood, behavior, and cognitive ability when learning. The website is built using Laravel as a fullstack framework. In this website teacher can track student mood and other metrics data based on the material students accessed.",
-        "The website also has a few features such as a dashboard for the teacher to see the student's data, a material page, and a quiz page. The website also has a few charts to visualize the student's data. The website provided the student captured data that can be downloaded by the teacher.",
-        "The website also has a features to export the lecture data such as the mood, behaviour, and cognitive score to a xlxs file that can be downloaded by the teacher."
+        "TreeTalk Therapy (treetalktherapy.com) is a telehealth platform focused on mental well-being, connecting users with licensed professional therapists. The site emphasizes a nature-inspired approach to help clients find balance and peace. It offers a diverse range of therapeutic services, including Individual Therapy, Cognitive Behavioral Therapy (CBT), Mindfulness-Based Therapy, Dialectical Behavior Therapy (DBT), Psychodynamic Therapy, and Trauma-Focused Therapy. Key functionalities include the ability to book sessions online, user login portals, and access to support. Additionally, a 'Visit store' feature suggests a potential e-commerce component offering related wellness products."
       ],
-      "year": "2024",
+      "year": "2023",
+      "preview": "https://treetalktherapy.com/",
+      "code": "",
+      "thumbnail": "/image/projects/web/treetalk/tt1.png",
+      "images": [
+        "/image/projects/web/treetalk/tt1.png",
+        "/image/projects/web/treetalk/tt2.png",
+        "/image/projects/web/treetalk/tt3.png",
+        "/image/projects/web/treetalk/tt4.png",
+        "/image/projects/web/treetalk/tt5.png"
+      ],
+      "tech": [
+        "HTML",
+        "CSS",
+        "ReactJS",
+        "MUI",
+        "Typescript",
+        "Firebase",
+        "Stripe",
+        "Paypal",
+        "2FA",
+        "Shippo",
+        "Sendbird"
+      ],
+      "slug": "treetalk",
+      "category": [1]
+    },
+    {
+      "show": true,
+      "title": "Wisenode",
+      "desc": [
+        "Developed the WiseNode web application (skribr-prod.vercel.app), a content aggregation platform focused on financial markets, particularly cryptocurrency and related topics. The platform features curated content streams including Feeds, News, Media, Articles, Charts, and Research, presented through sections like 'Featured Content' and 'Newest Content'. It also incorporates user account functionalities for personalized experiences.The application was built using a modern tech stack, leveraging Next.js for server-side rendering and static site generation, TypeScript for enhanced code quality and type safety in the frontend development, and Firebase for backend services, likely including database management, authentication, and real-time data synchronization."
+      ],
+      "year": "2023",
       "preview": "",
       "code": "",
-      "thumbnail": "/image/projects/web/mind-mirror/mind-thumbnail.jpg",
+      "thumbnail": "/image/projects/web/wisenode/wn1.png",
       "images": [
-        "/image/projects/web/mind-mirror/mind1.png",
-        "/image/projects/web/mind-mirror/mind2.png",
-        "/image/projects/web/mind-mirror/mind3.png",
-        "/image/projects/web/mind-mirror/mind4.png",
-        "/image/projects/web/mind-mirror/mind5.png"
+        "/image/projects/web/wisenode/wn1.png",
+        "/image/projects/web/wisenode/wn2.png",
+        "/image/projects/web/wisenode/wn3.png",
+        "/image/projects/web/wisenode/wn4.png"
       ],
-      "tech": ["PHP", "Laravel", "Bootstrap", "MySQL", "jQuery", "DataTables"],
-      "slug": "mind-mirror",
+      "tech": [
+        "React.js",
+        "Typescript",
+        "Firebase",
+        "Crypto Api",
+        "HTML",
+        "CSS"
+      ],
+      "slug": "wisenode",
+      "category": [1]
+    },
+    {
+      "show": true,
+      "title": "Pexals",
+      "desc": [
+        "A 3D Product Store that offers a unique e-commerce experience, allowing users to customize and visualize clothes in 3D. This platform enables users to pick shirt colors, upload logos and textures, and even generate designs using Stable Diffusion AI for different clothing items. This platform was developed using React, Threejs, framer motion and tailwindcss. Below, is a brief overview of the project and its dependencies. Try it out"
+      ],
+      "year": "2024",
+      "preview": "https://pexals.vercel.app/",
+      "code": "https://github.com/harismehboob142/Pexals-FE",
+      "thumbnail": "/image/projects/ai/pexals/pex1.jpg",
+      "images": [
+        "/image/projects/ai/pexals/pex1.jpg",
+        "/image/projects/ai/pexals/pex2.jpg",
+        "/image/projects/ai/pexals/pex3.jpg",
+        "/image/projects/ai/pexals/pex4.jpg",
+        "/image/projects/ai/pexals/pex5.jpg"
+      ],
+      "tech": [
+        "React.js",
+        "Threejs",
+        "Framer Motion",
+        "Tailwind CSS",
+        "HTML",
+        "CSS",
+        "Stable Diffusion"
+      ],
+      "slug": "pexals",
       "category": [1, 2]
-    },
-    {
-      "show": true,
-      "title": "Javanese Translation Website",
-      "desc": [
-        "A Javanese ngoko - krama translation website that I created as a collaborative project with my friends. The website is built using the original Transformer architecture by Vaswani et al. (2017). Built with Python, TensorFlow, Flask, HTML, and CSS, the website allows users to input text in Javanese krama and receive the corresponding ngoko translation.",
-        "The website is designed to be simple to use, with a clean and modern interface that appeals to a wide audience. Users can input text in Javanese krama and receive the corresponding ngoko translation. The Project also provide ipynb file for the model training and the model itself."
-      ],
-      "year": "2024",
-      "preview": "",
-      "code": "https://github.com/Haris/web-javanese-translation",
-      "thumbnail": "/image/projects/ai/javanese-translation/javanese-translation-thumbnail.jpg",
-      "images": [
-        "/image/projects/ai/javanese-translation/javanese-translation1.png",
-        "/image/projects/ai/javanese-translation/javanese-translation2.png"
-      ],
-      "tech": ["Transformers", "Python", "Tensorflow", "Flask", "HTML", "CSS"],
-      "slug": "javanese-translation",
-      "category": [2]
-    },
-    {
-      "show": true,
-      "title": "SIPETI: Heart Prediction Website",
-      "desc": [
-        "This is a Machine Learning based website that I created as a collage project. The website is built using Decision Tree algorithm and Flask. The website is a heart attack prediction website that can predict whether a person will get a heart attack or not based on their health condition.",
-        "In this website user can predict, customize dataset, customize model, and see the model performance. The website also has a few features such as a dashboard for the user to see the model performance, and a few charts to visualize the decision tree model."
-      ],
-      "year": "2024",
-      "preview": "",
-      "code": "https://github.com/Haris/heart-attack-prediction",
-      "thumbnail": "/image/projects/ai/heart-attack-prediction/heart-attack-prediction-thumbnail.jpg",
-      "images": [
-        "/image/projects/ai/heart-attack-prediction/heart-attack1.png",
-        "/image/projects/ai/heart-attack-prediction/heart-attack2.png",
-        "/image/projects/ai/heart-attack-prediction/heart-attack3.png",
-        "/image/projects/ai/heart-attack-prediction/heart-attack4.png",
-        "/image/projects/ai/heart-attack-prediction/heart-attack5.png"
-      ],
-      "tech": ["Decision Tree", "Python", "Sklearn", "Flask", "HTML", "CSS"],
-      "slug": "heart-attack",
-      "category": [2]
     },
     {
       "show": true,

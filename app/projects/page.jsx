@@ -6,9 +6,9 @@ import Button from "@/components/Button";
 import Image from "next/image";
 
 // images
-import ReactChat1 from "@/public/image/projects/web/trivia/trivia1.png";
-import ReactChat2 from "@/public/image/projects/web/trivia/trivia2.png";
-import ReactChat3 from "@/public/image/projects/web/trivia/trivia3.png";
+import ReactChat1 from "@/public/image/projects/web/treetalk/tt1.png";
+import ReactChat2 from "@/public/image/projects/web/treetalk/tt2.png";
+import ReactChat3 from "@/public/image/projects/web/treetalk/tt3.png";
 import ProjectAll from "@/public/image/projects.png";
 
 import Hr from "@/components/Hr";
@@ -85,7 +85,7 @@ export default function Page() {
         <div className="mt-10 flex flex-col justify-start items-center w-full pl-10 md:pl-32">
           <div className="flex justify-center items-center flex-col my-5 self-start ">
             <Hr variant="long"></Hr>
-            <h1 className="text-3xl font-bold mt-3">Hightlight</h1>
+            <h1 className="text-3xl font-bold mt-3">Highlight</h1>
           </div>
         </div>
         <div className="relative w-screen mx-auto container gap-4 px-10 grid grid-cols-1 md:grid-cols-2 mb-10">
@@ -183,21 +183,26 @@ export default function Page() {
               Treetalk Therapy
             </h2>
             <p className="text-gray-600 text-justify title text-lg">
-              Treetalk Therapy website built with React.js, Firebase, Stripe,
-              Paypal, Google OAuth, and TypeScript. Users can generate trivia
-              questions for predefined school subjects and answer them with a
-              unique interactive input style. The application supports user
-              authentication with Google and stores data in Firestore. You can
-              see the source code of this project on my github account or
-              preview the project by clicking the button below.
+              TreeTalk Therapy (treetalktherapy.com) is a telehealth platform
+              focused on mental well-being, connecting users with licensed
+              professional therapists. The site emphasizes a nature-inspired
+              approach to help clients find balance and peace. It offers a
+              diverse range of therapeutic services, including Individual
+              Therapy, Cognitive Behavioral Therapy (CBT), Mindfulness-Based
+              Therapy, Dialectical Behavior Therapy (DBT), Psychodynamic
+              Therapy, and Trauma-Focused Therapy. Key functionalities include
+              the ability to book sessions online, user login portals, and
+              access to support. Additionally, a 'Visit store' feature suggests
+              a potential e-commerce component offering related wellness
+              products.
             </p>{" "}
             <div className="mt-3">
               <Button variation="primary">
-                <Link href="projects/trivia">More</Link>
+                <Link href="projects/treetalk">More</Link>
               </Button>
               <Button variation="secondary">
                 <a
-                  href="https://generative-trivia.vercel.app/"
+                  href="https://treetalktherapy.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

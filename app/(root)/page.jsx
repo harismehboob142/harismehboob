@@ -1,7 +1,3 @@
-// Copyright (C) 2025 Haris Bilyunazra
-// This file is part of Haris-porto-2-nextJs.
-// Licensed under the GNU GPL v3.0. See LICENSE for details.
-
 "use client";
 import ReactFullpage from "@fullpage/react-fullpage";
 import Image from "next/legacy/image";
