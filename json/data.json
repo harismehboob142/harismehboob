@@ -164,24 +164,33 @@
     },
     {
       "show": true,
-      "title": "Simadun",
+      "title": "React TS Starter Template",
       "desc": [
-        "Simadun is an Exam Management System developed for doctoral students in the Department of Electrical Engineering and Informatics Universitas Negeri Malang. The system facilitates the management of five different types of examinations, allowing students to apply for exams with ease. Professors and program heads can efficiently oversee the exam processes.",
-
-        "With Simadun, students can submit their exam applications online, track their application status, and receive timely notifications regarding their exam schedules. Program heads and relevant lecturers have access to comprehensive dashboards where they can manage exam requests, allocate resources, and monitor overall exam logistics. "
+        "This is a fully-configured React project starter template designed to accelerate frontend development with a clean, scalable structure and commonly used tools pre-integrated. Ideal for teams or solo developers who want to skip setup and jump straight into building."
       ],
-      "year": "2024",
-      "thumbnail": "/image/projects/web/simadun/simadun-thumbnail.png",
+      "year": "2023",
+      "thumbnail": "/image/projects/other/template/te2.png",
       "images": [
-        "/image/projects/web/simadun/simadun1.png",
-        "/image/projects/web/simadun/simadun2.png",
-        "/image/projects/web/simadun/simadun3.png",
-        "/image/projects/web/simadun/simadun4.png",
-        "/image/projects/web/simadun/simadun5.png"
+        "/image/projects/other/template/te2.png",
+        "/image/projects/other/template/te3.png",
+        "/image/projects/other/template/te4.png",
+        "/image/projects/other/template/te5.png"
       ],
-      "tech": ["PHP", "Laravel", "Bootstrap", "MySQL", "jQuery", "DataTables"],
-      "slug": "simadun",
-      "category": [1]
+      "tech": [
+        "ReactJS",
+        "Vite",
+        "BunJS",
+        "Mantine v6",
+        "React Router",
+        "React Hook Form + Yup",
+        "Typescript",
+        "Axios",
+        "ESLint + Prettier",
+        "React Query",
+        "Custom Controller Components"
+      ],
+      "slug": "template",
+      "category": [1, 3]
     },
     {
       "show": true,
