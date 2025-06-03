@@ -5,8 +5,8 @@ import "@fortawesome/fontawesome-svg-core/styles.css";
 config.autoAddCss = false;
 import "./nprogress.css";
 import { Analytics } from "@vercel/analytics/react";
-import Chat from "@/components/Chat";
 import ClientTopProgressBar from "@/components/ClientTopProgressBar";
+import Chat from "@/components/Chat";
 
 export const metadata = {
   title: "Haris | Portofolio",
@@ -39,7 +39,7 @@ export const metadata = {
     height: 630,
     images: [
       {
-        url: "/og-image-rev.png",
+        url: "/me3.jpg",
         alt: "Haris | Portofolio",
       },
     ],
