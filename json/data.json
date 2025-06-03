@@ -190,27 +190,21 @@
         "Custom Controller Components"
       ],
       "slug": "template",
-      "category": [1, 3]
+      "category": [1, 9]
     },
     {
       "show": true,
-      "title": "LUDOang",
+      "title": "Friendly Date",
       "desc": [
-        "LUDOang is a game that my team and I created for a final project in my university. The game is built python, pygame, and OpenGL. The game is a 2D game that is inspired by a Ludo game. The game has a few features such randomZone, and a 3D dice.",
-        "RandomZone is a feature that allows the player to get a random number of steps. The 3D dice is a feature that allows the player to roll a 3D dice. The game also has a few other features menuy screen and also loading screen.",
-        "Beside that the game also has a audio theme that will play when the game is started. The game also has a few sound effects such as dice roll sound, and a sound when the player win the game."
+        "A lightweight npm utility to convert raw dates or timestamps into friendly, human-readable formats like:- 'just now', - '5 minutes ago', - 'yesterday', - '3 days ago'"
       ],
-      "year": "2023",
-      "preview": "https://github.com/Haris/ludo-game/releases/tag/pre-release",
-      "code": "https://github.com/Haris/ludo-game",
-      "thumbnail": "/image/projects/other/LUDOang/ludo-thumbnail.png",
-      "images": [
-        "/image/projects/other/LUDOang/ludo1.png",
-        "/image/projects/other/LUDOang/ludo2.png",
-        "/image/projects/other/LUDOang/ludo3.png"
-      ],
-      "tech": ["Python", "Pygame", "OpenGL"],
-      "slug": "ludoang",
+      "year": "2025",
+      "preview": "https://www.npmjs.com/package/friendly-date",
+      "code": "https://github.com/harismehboob142/friendly-date",
+      "thumbnail": "/image/projects/other/fd/fd.png",
+      "images": ["/image/projects/other/fd/fd.png"],
+      "tech": ["Javascript", "NPM", "Utilities"],
+      "slug": "fd",
       "category": [9]
     },
     {
