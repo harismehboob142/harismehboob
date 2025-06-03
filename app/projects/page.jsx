@@ -192,9 +192,8 @@ export default function Page() {
               Therapy, Dialectical Behavior Therapy (DBT), Psychodynamic
               Therapy, and Trauma-Focused Therapy. Key functionalities include
               the ability to book sessions online, user login portals, and
-              access to support. Additionally, a 'Visit store' feature suggests
-              a potential e-commerce component offering related wellness
-              products.
+              access to support. Additionally, a Visit store feature suggests a
+              potential e-commerce component offering related wellness products.
             </p>{" "}
             <div className="mt-3">
               <Button variation="primary">
