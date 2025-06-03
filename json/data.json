@@ -132,29 +132,35 @@
     },
     {
       "show": true,
-      "title": "Saku Senyum",
+      "title": "NIDS",
       "desc": [
-        "Saku Senyum is a website that I created as a Fullstack Developer in PT Hafdzahmedia based on client request. The website is a sales management for UMKM or small business. The website is built using Next.js, TypeScript, Tailwind CSS, ShadCN UI, Prisma, and MySQL.",
-        "The website has a few features such as a dashboard for the user to manage their business sales, a statistic page, and a sales report page. User can see their sales performance in a fancy chart to make it easier to understand. The user also can export their sales report to a PDF file which can be printed or saved to their device."
+        "This project detects Network Intrusion anomalies by using NSL - KDD data-set. The deep learning model Long Short Term Memory (LSTM), superior version of RNN (Recurrent Neural Network) and KNN K - Nearest Neighbour Algorithm) method are used for binary and multi class classification.",
+
+        "The user enters the hacking parameters in the front end which is designed by using ReactJS. The model predicts the type of attack and gives information about the type of attack to the user. MongoDB is used for storing the data and NodeJS is served as back end framework.",
+        "The project is fully responsive and completely based on session and cookies concepts. Once the user authenticated and logged-in It will not ask the user to enter the login parameters again and again (next visit). It ask login parameters only when user click on logout button. And also using google oauth 2.0 for user authentication and storing user details in salted hash in the mongoDB."
       ],
       "year": "2024",
-      "thumbnail": "/image/projects/web/saku-senyum/saku-senyum-thumbnail.png",
+      "thumbnail": "/image/projects/ai/nids/nids1.png",
       "images": [
-        "/image/projects/web/saku-senyum/saku-senyum1.png",
-        "/image/projects/web/saku-senyum/saku-senyum2.png",
-        "/image/projects/web/saku-senyum/saku-senyum3.png",
-        "/image/projects/web/saku-senyum/saku-senyum4.png"
+        "/image/projects/ai/nids/nids1.png",
+        "/image/projects/ai/nids/nids2.png",
+        "/image/projects/ai/nids/nids3.png",
+        "/image/projects/ai/nids/nids4.png",
+        "/image/projects/ai/nids/nids5.png"
       ],
       "tech": [
-        "NextJS",
+        "ReactJs",
         "Typescript",
-        "Shadcn UI",
+        "NodeJs",
         "Tailwind CSS",
-        "Prisma",
-        "MySQL"
+        "Machine Learning",
+        "MongoDB",
+        "Deep Learning",
+        "KNN",
+        "LSTM"
       ],
-      "slug": "saku-senyum",
-      "category": [1]
+      "slug": "nids",
+      "category": [1, 2]
     },
     {
       "show": true,
