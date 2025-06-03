@@ -111,23 +111,24 @@
     },
     {
       "show": true,
-      "title": "Generative Trivia",
+      "title": "DND",
       "desc": [
-        "A generative trivia website built with Next.js, Firebase, NextAuth, Google OAuth, and TypeScript. Users can generate trivia questions for predefined school subjects and answer them with a unique interactive input style. The application supports user authentication with Google and stores data in Firestore.",
-        "The project is a culmination of my passion for web development and my desire to create a fun and interactive learning platform. The website is designed to be user-friendly and engaging, with a clean and modern interface that appeals to a wide audience. The trivia questions are generated using the Gemini API, which provides a diverse range of questions for users to answer."
+        "Dungeons Not Dating is a social networking platform designed to connect Dungeons & Dragons (D&D) and tabletop role-playing game (TTRPG) enthusiasts. Launched in January 2025 by Rachel Dove, the app aims to provide a safe, inclusive space for players to find compatible gaming groups based on shared interests and playstyles. Users can create detailed profiles, including character information, to match with others for virtual campaigns. The platform emphasizes community building, offering features like group chats and customizable profiles to facilitate meaningful connections among players. Dungeons Not Dating is available for download on iOS and Android devices"
       ],
-      "year": "2024",
-      "preview": "https://generative-trivia.vercel.app/",
-      "code": "https://github.com/Haris/generative-trivia",
-      "thumbnail": "/image/projects/web/trivia/trivia-thumbnail.png",
+      "year": "2025",
+      "preview": "https://dungeonsnotdating-admin.web.app/",
+      "code": "",
+      "thumbnail": "/image/projects/web/dnd/dd1.png",
       "images": [
-        "/image/projects/web/trivia/trivia1.png",
-        "/image/projects/web/trivia/trivia2.png",
-        "/image/projects/web/trivia/trivia3.png"
+        "/image/projects/web/dnd/dd1.png",
+        "/image/projects/web/dnd/dd2.png",
+        "/image/projects/web/dnd/dd3.png",
+        "/image/projects/web/dnd/dd4.png",
+        "/image/projects/web/dnd/dd5.png"
       ],
-      "tech": ["NextJS", "Shadcn UI", "Tailwind CSS", "Firebase", "Gemini API"],
-      "slug": "trivia",
-      "category": [1, 2]
+      "tech": ["ReactJS", "Mantine", "Typescript", "Firebase", "Google Ads"],
+      "slug": "dnd",
+      "category": [1]
     },
     {
       "show": true,
