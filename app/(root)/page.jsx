@@ -15,9 +15,7 @@ import Hr from "@/components/Hr";
 // icons
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import { faDiscord } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 const MyPage = () => {
@@ -108,7 +106,7 @@ const MyPage = () => {
                         rel="noopener noreferrer"
                         download
                       >
-                        Download CV
+                        Download Resume
                       </Link>
                     </Button>
                     <Button variation="secondary">
@@ -382,7 +380,7 @@ const MyPage = () => {
                     >
                       <FontAwesomeIcon icon={faGithub} className="text-3xl" />
                     </motion.a>
-                    <motion.a
+                    {/* <motion.a
                       href="https://www.instagram.com/deezz4365/"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -398,7 +396,7 @@ const MyPage = () => {
                         icon={faInstagram}
                         className="text-3xl"
                       />
-                    </motion.a>
+                    </motion.a> */}
                     <motion.a
                       href="https://www.linkedin.com/in/harismehboob142/"
                       target="_blank"
@@ -413,7 +411,7 @@ const MyPage = () => {
                     >
                       <FontAwesomeIcon icon={faLinkedin} className="text-3xl" />
                     </motion.a>
-                    <motion.a
+                    {/* <motion.a
                       href="https://discordapp.com/users/deez_.nuts0119"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -426,7 +424,7 @@ const MyPage = () => {
                       }}
                     >
                       <FontAwesomeIcon icon={faDiscord} className="text-3xl" />
-                    </motion.a>
+                    </motion.a> */}
                   </div>
                 </div>
               </div>

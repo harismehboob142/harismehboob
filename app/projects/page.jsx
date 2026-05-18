@@ -6,9 +6,6 @@ import Button from "@/components/Button";
 import Image from "next/image";
 
 // images
-import ReactChat1 from "@/public/image/projects/web/treetalk/tt1.png";
-import ReactChat2 from "@/public/image/projects/web/treetalk/tt2.png";
-import ReactChat3 from "@/public/image/projects/web/treetalk/tt3.png";
 import ProjectAll from "@/public/image/projects.png";
 
 import Hr from "@/components/Hr";
@@ -88,6 +85,7 @@ export default function Page() {
             <h1 className="text-3xl font-bold mt-3">Highlight</h1>
           </div>
         </div>
+
         <div className="relative w-screen mx-auto container gap-4 px-10 grid grid-cols-1 md:grid-cols-2 mb-10">
           <div className="flex justify-center items-start flex-col mb-5 ">
             <div className="images relative w-full  aspect-square">
@@ -102,11 +100,10 @@ export default function Page() {
                   className="w-full h-full shadow-lg"
                 >
                   <Image
-                    src={ReactChat1}
-                    alt="Haris"
+                    src="/image/projects/web/tdcp/tdcp_thumb.png"
+                    alt="TDCP Portal Screenshot 1"
                     layout="fill"
                     objectFit="cover"
-                    placeholder="blur"
                     className="rat"
                   />
                 </motion.div>
@@ -127,11 +124,10 @@ export default function Page() {
                   className="w-full h-full shadow-lg "
                 >
                   <Image
-                    src={ReactChat3}
-                    alt="Haris"
+                    src="/image/projects/web/tdcp/2.png"
+                    alt="TDCP Portal Screenshot 2"
                     layout="fill"
                     objectFit="cover"
-                    placeholder="blur"
                     objectPosition="0% 0%"
                   />
                 </motion.div>
@@ -154,11 +150,10 @@ export default function Page() {
                   className="w-full h-full shadow-lg"
                 >
                   <Image
-                    src={ReactChat2}
-                    alt="Haris"
+                    src="/image/projects/web/tdcp/3.png"
+                    alt="TDCP Portal Screenshot 3"
                     layout="fill"
                     objectFit="cover"
-                    placeholder="blur"
                   />
                 </motion.div>
               </div>
@@ -180,28 +175,21 @@ export default function Page() {
             }}
           >
             <h2 className="text-2xl font-bold tracking-wider mb-3">
-              Treetalk Therapy
+              TDCP Service Portal
             </h2>
             <p className="text-gray-600 text-justify title text-lg">
-              TreeTalk Therapy (treetalktherapy.com) is a telehealth platform
-              focused on mental well-being, connecting users with licensed
-              professional therapists. The site emphasizes a nature-inspired
-              approach to help clients find balance and peace. It offers a
-              diverse range of therapeutic services, including Individual
-              Therapy, Cognitive Behavioral Therapy (CBT), Mindfulness-Based
-              Therapy, Dialectical Behavior Therapy (DBT), Psychodynamic
-              Therapy, and Trauma-Focused Therapy. Key functionalities include
-              the ability to book sessions online, user login portals, and
-              access to support. Additionally, a Visit store feature suggests a
-              potential e-commerce component offering related wellness products.
-            </p>{" "}
+              The TDCP (Tourism Development Corporation of Punjab) Service Portal is a specialized group of high-impact landing pages developed for the Tourism Development Corporation of Punjab (Government of Punjab). This project serves as the digital hub for Punjab's diverse tourism offerings, where I engineered both the frontend interfaces and backend systems for six core services: Sightseeing, Softwheel Tours, Boating, Fleet Management, Chairlift, and Cable Car.
+
+              Each service required a unique, custom-tailored user experience—from interactive sightseeing maps to real-time fleet availability modules and service-specific booking workflows. Beyond the frontend implementation using React 19 and Tailwind CSS v4 for a consistent and premium UI experience, I developed a robust backend architecture to power the entire platform, including booking management, service scheduling, and dynamic content delivery across all modules.
+
+              In addition, I implemented a complete booking system with real-time availability validation, user reservation handling, and secure payment integration for processing transactions, ensuring a smooth end-to-end user journey from service discovery to confirmed booking. The system was designed to handle multiple concurrent users while maintaining data consistency, scalability, and operational reliability for large-scale public tourism usage.            </p>{" "}
             <div className="mt-3">
               <Button variation="primary">
-                <Link href="projects/treetalk">More</Link>
+                <Link href="projects/tdcp-service-portal">More</Link>
               </Button>
               <Button variation="secondary">
                 <a
-                  href="https://treetalktherapy.com/"
+                  href="https://staging.tdcp.gop.pk/fleet"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -252,11 +240,10 @@ export default function Page() {
           {Object.keys(category).map((key, index) => (
             <button
               key={index}
-              className={`px-2 md:px-4 py-2 rounded-lg cursor-pointer transition-all ease duration-300 focus:bg-gray-300 focus:text-black focus:ring focus:ring-slate-500 ${
-                activeCategory === key
-                  ? "bg-gray-300 text-black hover:bg-gray-700 hover:text-white"
-                  : "bg-gray-700 text-white hover:bg-gray-300 hover:text-black"
-              }`}
+              className={`px-2 md:px-4 py-2 rounded-lg cursor-pointer transition-all ease duration-300 focus:bg-gray-300 focus:text-black focus:ring focus:ring-slate-500 ${activeCategory === key
+                ? "bg-gray-300 text-black hover:bg-gray-700 hover:text-white"
+                : "bg-gray-700 text-white hover:bg-gray-300 hover:text-black"
+                }`}
               onClick={() => setActiveCategory(key)}
             >
               {category[key]}

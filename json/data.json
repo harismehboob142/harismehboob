@@ -2,6 +2,114 @@
   "Projects": [
     {
       "show": true,
+      "title": "PTF Sports Booking Ecosystem",
+      "desc": [
+        "The PTF (Pakistan Tennis Federation) Sports Booking Portal is an enterprise-grade digital reservation and facility management platform developed for the Government of Punjab. Built to streamline sports bookings across major tennis and padel facilities, the platform replaces manual logs with a seamless, digital-first experience. In engineering this project, I architected a dual-portal ecosystem consisting of a high-performance public booking frontend and a specialized administrative control console. I developed a deterministic timing and scheduling engine that dynamically calculates, validates, and renders collision-free booking slots for variable reservation durations (60, 90, or 120 minutes) to eliminate booking overlaps.",
+        "On the public interface, I used React 19 and Tailwind CSS v4 to deliver an ultra-fast, visually premium booking funnel. For administrative operations, I constructed a type-safe TypeScript dashboard using Mantine UI and Recharts to provide real-time analytical reporting on revenue, booking trends, and court utilization. To protect system operations, I implemented robust security architecture, including JWT authentication with secure HTTP-only cookies, automated refresh token rotation via Axios interceptors, API rate limiting, and role-based access controls."
+      ],
+      "year": "2026",
+      "preview": "",
+      "code": "",
+      "thumbnail": "/image/projects/web/ptf/thumb.png",
+      "images": [
+        "/image/projects/web/ptf/thumb.png",
+        "/image/projects/web/ptf/1.png",
+        "/image/projects/web/ptf/2.png",
+        "/image/projects/web/ptf/3.png",
+        "/image/projects/web/ptf/4.png"
+      ],
+      "tech": [
+        "React 19",
+        "React 18",
+        "TypeScript",
+        "Vite",
+        "Tailwind CSS v4",
+        "Mantine UI",
+        "TanStack Query",
+        "Recharts",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "JWT Auth",
+        "Axios"
+      ],
+      "slug": "ptf-sports-booking",
+      "category": [
+        1
+      ]
+    },
+    {
+      "show": true,
+      "title": "TDCP Service Portal",
+      "desc": [
+        "The TDCP (Tourism Development Corporation of Punjab) Service Portal is a specialized group of high-impact landing pages developed for the Tourism Development Corporation of Punjab (Government of Punjab). This project serves as the digital hub for Punjab's diverse tourism offerings, where I engineered both the frontend interfaces and backend systems for six core services: Sightseeing, Softwheel Tours, Boating, Fleet Management, Chairlift, and Cable Car.Each service required a unique, custom-tailored user experience—from interactive sightseeing maps to real-time fleet availability modules and service-specific booking workflows. Beyond the frontend implementation using React 19 and Tailwind CSS v4 for a consistent and premium UI experience, I developed a robust backend architecture to power the entire platform, including booking management, service scheduling, and dynamic content delivery across all modules.In addition, I implemented a complete booking system with real-time availability validation, user reservation handling, and secure payment integration for processing transactions, ensuring a smooth end-to-end user journey from service discovery to confirmed booking. The system was designed to handle multiple concurrent users while maintaining data consistency, scalability, and operational reliability for large-scale public tourism usage."
+      ],
+      "year": "2026",
+      "preview": "https://staging.tdcp.gop.pk/fleet",
+      "code": "",
+      "thumbnail": "/image/projects/web/tdcp/tdcp_thumb.png",
+      "images": [
+        "/image/projects/web/tdcp/1.png",
+        "/image/projects/web/tdcp/2.png",
+        "/image/projects/web/tdcp/3.png",
+        "/image/projects/web/tdcp/4.png",
+        "/image/projects/web/tdcp/5.png"
+      ],
+      "tech": [
+        "React 19",
+        "Vite",
+        "Tailwind CSS v4",
+        "TanStack Query",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Firebase",
+        "Google Maps API",
+        "RESTful APIs"
+      ],
+      "slug": "tdcp-service-portal",
+      "category": [
+        1
+      ]
+    },
+    {
+      "show": true,
+      "title": "iZiarah Admin Panel",
+      "desc": [
+        "The iZiarah Admin Panel is a specialized management ecosystem designed to streamline spiritual travel and pilgrimage services for the iZiarah platform. It serves as the central administrative hub for coordinating sacred Ziarah locations, tour agencies, and transport logistics, ensuring a seamless experience for both organizers and pilgrims. In developing this platform, I architected a robust frontend using React 18 and TypeScript to deliver a type-safe and highly responsive user interface. I implemented modular management systems for a complex hierarchy of categories, a fleet inventory tracker for vehicle coordination, and a centralized booking engine. To enhance geographical precision, I integrated the Google Maps API for interactive location tagging and precise coordinate management of sacred sites. Data synchronization and server state were managed through React Query, while Mantine UI and Styled Components were leveraged to maintain a professional, high-performance design system across all administrative modules."
+      ],
+      "year": "2026",
+      "preview": "https://admin.iziyarah.com",
+      "code": "",
+      "thumbnail": "/image/projects/web/iziarah/thumb.png",
+      "images": [
+        "/image/projects/web/iziarah/1.png",
+        "/image/projects/web/iziarah/2.png",
+        "/image/projects/web/iziarah/3.png",
+        "/image/projects/web/iziarah/4.png",
+        "/image/projects/web/iziarah/5.png",
+        "/image/projects/web/iziarah/6.png"
+      ],
+      "tech": [
+        "React 18",
+        "TypeScript",
+        "Vite",
+        "Mantine UI",
+        "Styled Components",
+        "React Query",
+        "Axios",
+        "Google Maps API",
+        "Recharts",
+        "JWT Auth",
+        "DayJS"
+      ],
+      "slug": "iziarah-admin",
+      "category": [
+        1
+      ]
+    },
+    {
+      "show": true,
       "title": "SVCC",
       "desc": [
         "The Sauk Valley Community College (SVCC) website (svcc.edu) serves as the central online hub for the institution, catering to prospective and current students, faculty, staff, alumni, and the wider community. Its primary purpose is to provide comprehensive information about the college's offerings and resources, including detailed sections on Admissions, Academics, Student Resources, and Athletics, alongside functions for requesting information, applying online, and accessing user portals. In contributing to the development of this platform, I focused on key frontend and backend components. I utilized React and TypeScript to build interactive user interface elements and ensure a robust, type-safe frontend architecture. On the backend, I implemented features and managed data persistence through integration with Firebase services, facilitating dynamic content delivery and user interactions within specific sections of the site."
@@ -10,15 +118,23 @@
       "preview": "https://www.svcc.edu/index.html",
       "code": "",
       "thumbnail": "/image/projects/web/svcc/svcc1.png",
-
       "images": [
         "/image/projects/web/svcc/svcc1.png",
         "/image/projects/web/svcc/svcc2.png",
         "/image/projects/web/svcc/svcc3.png"
       ],
-      "tech": ["HTML", "CSS", "ReactJS", "MUI", "Typescript", "Firebase"],
+      "tech": [
+        "HTML",
+        "CSS",
+        "ReactJS",
+        "MUI",
+        "Typescript",
+        "Firebase"
+      ],
       "slug": "svcc",
-      "category": [1]
+      "category": [
+        1
+      ]
     },
     {
       "show": true,
@@ -51,7 +167,9 @@
         "Sendbird"
       ],
       "slug": "treetalk",
-      "category": [1]
+      "category": [
+        1
+      ]
     },
     {
       "show": true,
@@ -78,7 +196,9 @@
         "CSS"
       ],
       "slug": "wisenode",
-      "category": [1]
+      "category": [
+        1
+      ]
     },
     {
       "show": true,
@@ -107,7 +227,10 @@
         "Stable Diffusion"
       ],
       "slug": "pexals",
-      "category": [1, 2]
+      "category": [
+        1,
+        2
+      ]
     },
     {
       "show": true,
@@ -126,16 +249,23 @@
         "/image/projects/web/dnd/dd4.png",
         "/image/projects/web/dnd/dd5.png"
       ],
-      "tech": ["ReactJS", "Mantine", "Typescript", "Firebase", "Google Ads"],
+      "tech": [
+        "ReactJS",
+        "Mantine",
+        "Typescript",
+        "Firebase",
+        "Google Ads"
+      ],
       "slug": "dnd",
-      "category": [1]
+      "category": [
+        1
+      ]
     },
     {
       "show": true,
       "title": "NIDS",
       "desc": [
         "This project detects Network Intrusion anomalies by using NSL - KDD data-set. The deep learning model Long Short Term Memory (LSTM), superior version of RNN (Recurrent Neural Network) and KNN K - Nearest Neighbour Algorithm) method are used for binary and multi class classification.",
-
         "The user enters the hacking parameters in the front end which is designed by using ReactJS. The model predicts the type of attack and gives information about the type of attack to the user. MongoDB is used for storing the data and NodeJS is served as back end framework.",
         "The project is fully responsive and completely based on session and cookies concepts. Once the user authenticated and logged-in It will not ask the user to enter the login parameters again and again (next visit). It ask login parameters only when user click on logout button. And also using google oauth 2.0 for user authentication and storing user details in salted hash in the mongoDB."
       ],
@@ -160,7 +290,10 @@
         "LSTM"
       ],
       "slug": "nids",
-      "category": [1, 2]
+      "category": [
+        1,
+        2
+      ]
     },
     {
       "show": true,
@@ -190,7 +323,10 @@
         "Custom Controller Components"
       ],
       "slug": "template",
-      "category": [1, 9]
+      "category": [
+        1,
+        9
+      ]
     },
     {
       "show": true,
@@ -202,10 +338,18 @@
       "preview": "https://www.npmjs.com/package/friendly-date",
       "code": "https://github.com/harismehboob142/friendly-date",
       "thumbnail": "/image/projects/other/fd/fd.png",
-      "images": ["/image/projects/other/fd/fd.png"],
-      "tech": ["Javascript", "NPM", "Utilities"],
+      "images": [
+        "/image/projects/other/fd/fd.png"
+      ],
+      "tech": [
+        "Javascript",
+        "NPM",
+        "Utilities"
+      ],
       "slug": "fd",
-      "category": [9]
+      "category": [
+        9
+      ]
     },
     {
       "show": true,
@@ -222,9 +366,15 @@
         "/image/projects/web/vicc/vicc2.png",
         "/image/projects/web/vicc/vicc3.png"
       ],
-      "tech": ["JavaScript", "NextJS", "Tailwind CSS"],
+      "tech": [
+        "JavaScript",
+        "NextJS",
+        "Tailwind CSS"
+      ],
       "slug": "vicc",
-      "category": [1]
+      "category": [
+        1
+      ]
     },
     {
       "show": true,
@@ -243,18 +393,24 @@
         "/image/projects/web/react-chat/chat3.png",
         "/image/projects/web/react-chat/chat4.png"
       ],
-      "tech": ["JavaScript", "React", "React Router", "Firebase", "Daisy UI"],
+      "tech": [
+        "JavaScript",
+        "React",
+        "React Router",
+        "Firebase",
+        "Daisy UI"
+      ],
       "slug": "react-chat",
-      "category": [1]
+      "category": [
+        1
+      ]
     },
     {
       "show": true,
       "title": "React Tools",
       "desc": [
         "React Tools is a groundbreaking and user-friendly project that brings together a comprehensive collection of tools and components crafted with cutting-edge technologies, including React, React Router, and TailwindCSS. What sets this project apart is that it's not just a suite of powerful features, but it's also a significant milestone as it marks my very first venture into the world of React development.",
-
         "Unlike traditional web applications, React Tools cleverly utilizes browser local storage, eliminating the need for external databases. This not only ensures seamless performance but also prioritizes user data privacy. ",
-
         "The Todo List keeps tasks in check with intuitive task management capabilities, ensuring you never miss a beat. The note-taking feature provides a hassle-free way to jot down ideas and crucial information, accessible whenever inspiration strikes. Additionally, our robust expense tracker simplifies financial management by recording and categorizing expenses, delivering insightful spending analysis."
       ],
       "year": "2023",
@@ -267,9 +423,16 @@
         "/image/projects/web/tools/tools2.png",
         "/image/projects/web/tools/tools3.png"
       ],
-      "tech": ["Javascript", "React", "React Router", "TailwindCSS"],
+      "tech": [
+        "Javascript",
+        "React",
+        "React Router",
+        "TailwindCSS"
+      ],
       "slug": "react-tools",
-      "category": [1]
+      "category": [
+        1
+      ]
     },
     {
       "show": true,
@@ -286,9 +449,15 @@
         "/image/projects/other/bot/bot1.png",
         "/image/projects/other/bot/bot2.png"
       ],
-      "tech": ["Python", "Discord.py", "Google Serp API"],
+      "tech": [
+        "Python",
+        "Discord.py",
+        "Google Serp API"
+      ],
       "slug": "aleph-discord-bot",
-      "category": [9]
+      "category": [
+        9
+      ]
     },
     {
       "show": true,
@@ -307,9 +476,18 @@
         "/image/projects/web/lptk/lptk3.png",
         "/image/projects/web/lptk/lptk4.png"
       ],
-      "tech": ["PHP", "Laravel", "Bootstrap", "MySQL", "jQuery", "DataTables"],
+      "tech": [
+        "PHP",
+        "Laravel",
+        "Bootstrap",
+        "MySQL",
+        "jQuery",
+        "DataTables"
+      ],
       "slug": "lptk-cup-2023",
-      "category": [1]
+      "category": [
+        1
+      ]
     },
     {
       "show": true,
@@ -338,7 +516,9 @@
         "DataTables"
       ],
       "slug": "nu-ino-website",
-      "category": [1]
+      "category": [
+        1
+      ]
     }
   ]
 }

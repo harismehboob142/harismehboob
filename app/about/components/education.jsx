@@ -2,7 +2,6 @@ import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMedal } from "@fortawesome/free-solid-svg-icons";
 import { motion } from "framer-motion";
-import Me4 from "@/public/image/me2.jpg";
 import Me5 from "@/public/image/me5.jpg";
 import Me6 from "@/public/image/me6.jpg";
 
@@ -54,13 +53,13 @@ export default function Education() {
                 </h3>
                 <div className="gap-4 mb-4 flex items-stretch md:h-[300px] xl:h-[400px]">
                   <div className="flex-[1] transition-all duration-300 ease-in-out hover:flex-[3] group">
-                    <Image
+                    {/* <Image
                       src={Me4}
                       width={400}
                       height={225}
                       alt="University"
                       className="rounded-lg w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-300 ease-in-out"
-                    />
+                    /> */}
                   </div>
                   <div className="flex-[1] transition-all duration-300 ease-in-out hover:flex-[3] group">
                     <Image
