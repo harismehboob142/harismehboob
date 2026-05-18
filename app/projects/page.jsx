@@ -178,7 +178,7 @@ export default function Page() {
               TDCP Service Portal
             </h2>
             <p className="text-gray-600 text-justify title text-lg">
-              The TDCP (Tourism Development Corporation of Punjab) Service Portal is a specialized group of high-impact landing pages developed for the Tourism Development Corporation of Punjab (Government of Punjab). This project serves as the digital hub for Punjab's diverse tourism offerings, where I engineered both the frontend interfaces and backend systems for six core services: Sightseeing, Softwheel Tours, Boating, Fleet Management, Chairlift, and Cable Car.
+              The TDCP (Tourism Development Corporation of Punjab) Service Portal is a specialized group of high-impact landing pages developed for the Tourism Development Corporation of Punjab (Government of Punjab). This project serves as the digital hub for Punjab&apos;s diverse tourism offerings, where I engineered both the frontend interfaces and backend systems for six core services: Sightseeing, Softwheel Tours, Boating, Fleet Management, Chairlift, and Cable Car.
 
               Each service required a unique, custom-tailored user experience—from interactive sightseeing maps to real-time fleet availability modules and service-specific booking workflows. Beyond the frontend implementation using React 19 and Tailwind CSS v4 for a consistent and premium UI experience, I developed a robust backend architecture to power the entire platform, including booking management, service scheduling, and dynamic content delivery across all modules.
 
